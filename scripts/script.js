@@ -4,10 +4,7 @@ $(document).ready(function(){
 
   $("#btnGetFacts").click(function (){
 
-    // if (typeof userName !== 'string'){
-    //   let coolFacts='not string';
-    //   return coolFacts;
-    // }
+    
   
       let userName = $("#userName").val();
       let coolFacts = generateCoolNameFacts(userName);
@@ -48,7 +45,17 @@ function nameReverse(name){
   return "I put my thing down, flip it and reverse it: " + name.split("").reverse().join("");
 }
 
-
+function bandRec(name){
+  if (name.length < 4({
+    return "You should listen to Green Day"
+  }
+  if (name.length > 5({
+    return "You should listen to Queen"
+  }
+  if (name === "cumbie"){
+    return "You should listen to Nickelback"
+  }
+}
 
 //$ = jquery's way of naming stuff
 //$(...) = what's inside () is the "object" we are messing with
