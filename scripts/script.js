@@ -47,13 +47,13 @@ function nameReverse(name){
 }
 
 function bandRec(name){
-  if (name.length < 4({
+  if (name.length < 4){
     return "You should listen to Green Day"
   }
-  if (name.length > 5({
+  if (name.length > 5){
     return "You should listen to Queen"
   }
-  if (name === "cumbie"){
+  if (name == "cumbie"){
     return "You should listen to Nickelback"
   }
 }
