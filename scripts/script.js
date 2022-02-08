@@ -24,6 +24,7 @@ function generateCoolNameFacts(userName){
   coolFacts += "<h2>" + nameStart(userName) + "</h2>";
   coolFacts += "<h2>" + nameEnd(userName) + "</h2>";
   coolFacts += "<h2>" + nameReverse(userName) + "</h2>";
+  coolFacts += "<h2>" + bandRec(userName);
 
   return coolFacts;
 }
